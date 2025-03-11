@@ -53,10 +53,22 @@ table {
     margin-top: 20px;
 }
 
-th, td {
-    border: 1px solid #ddd;
-    padding: 8px;
-    text-align: center;
+@media (max-width: 600px) {
+    th, td {
+        border: 1px solid #ddd;
+        padding: 8px;
+        text-align: center;
+        font-size: 12px;
+    }
+}
+
+@media (min-width: 601px) {
+    th, td {
+        border: 1px solid #ddd;
+        padding: 8px;
+        text-align: center;
+        font-size: 16px;
+    }
 }
 
 th {
